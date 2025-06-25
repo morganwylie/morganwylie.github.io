@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.gideon-roman-regular {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2 {
+	color:antiquewhite;
+}
+
+h3 {
+	color:antiquewhite;
+	margin-top: 10px;
+}
+
+p {
+	color:antiquewhite;
+	margin-bottom: 20px;
+	
+}
+
+h1{
+	color: antiquewhite;
+	font-family:"Gideon Roman";
+}
+
+body {
+	background-color:#C37438;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-repeat: repeat
+		
+}
+
+li {
+	color:#e0ddd5
+}
+
+
+.Header {
+	text-align: center;
+	padding: 20px;
+	background-color:#231C17;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.item {
+	background-color:#231C17;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px;
+	margin-left: 30%;
+	margin-right: 30%;
+	box-sizing: border-box;
+
+}
+
+.item img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Navigation {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-weight: 400;
+	padding: 10px;;
+  font-style: normal;
+}
+
+.Navigation li {
+	display: inline-block;
+}
+
+.item h2 {
+	text-align: center;
+}
+
+
+html, body, a, textarea {
+    cursor: pointer;
+}
+
+
+.Navigation a {
+	text-decoration: none;
+	color: #231C17;
+background-color: antiquewhite;
+	border-radius: 100px;
+	margin: 5px;
+	border: 3px solid;
+	padding: 10px;
+	transition: background-color 0.3s;
+	/*cursor: help;*/
+}
+	
+.Navigation a:hover{
+	background-color: #D58950;
+}
+
+
+
+html, body, a, textarea{
+	cursor: url("cursor.png"), auto;
+}
+
+
+@media only screen and (max-width: 600px){
+	body{background-color: #C37438;
+	background-image:url()
+	}}
+
+
+
+.grid-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+background-color:#231C17;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px;
+	box-sizing: border-box;
+
+
+  align-items: center;
+  width: 360px;
+
+}
+
+.image-box img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-box h2 {
+  color: antiquewhite;
+  margin-bottom: 10px;
+}
+
+.text-box p {
+  margin: 0;
+}
+
+
+
+.honour {
+	background-color:#442A56;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+
+.divinity {
+	background-color:#DBAB5F;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.fate {
+	background-color:#557B97;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.mortality {
+	background-color:#8A2C2D;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%;
+
+}
+
+.love {
+	background-color:#DC4B70;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.hubris {
+	background-color:#4D5D23;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px;
+	box-sizing: border-box;
+	margin-left: 30%;
+	margin-right: 30%; 
+}
+
+
+.container2 {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+
+  max-width: 600px;
+
+  margin: 40px auto;
+
+  padding: 20px;
+	
+
+}
+
+ 
+
+.column {
+
+
+  background-color: #231C17;
+  border-radius: 5px;
+
+  padding: 10px;
+
+
+  display: inline-block;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #e0ddd5;
+
+
+
+  font-size: 1.2rem;
+
+  box-sizing: border-box;
+
+}
+
+.dot{
+	text-align: center;
+}
+
+
+.footer p {
+	text-align:center; 
+	margin-bottom: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+.item a {
+ color:#C37438; 
+}
